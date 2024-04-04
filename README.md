@@ -5,7 +5,7 @@
 Github action that uploads files to Google Drive.
 **This only works with a Google Service Account!**
 
-Thanks to [Team Tumbleweed](https://github.com/team-tumbleweed) for developing the initial version of this actions package.
+Thanks to [Team Tumbleweed](https://github.com/team-tumbleweed) for developing the initial version of this actions package. 
 
 To make a GSA go to the [Credentials Dashboard](https://console.cloud.google.com/apis/credentials). You will need to download the **.json key** and base64 encode it. You will use this string as the `credentials` input. To convert the *json* file to base64 without having to use an online tool (which is insecure), use this command:
 
